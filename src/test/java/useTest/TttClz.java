@@ -8,6 +8,7 @@ public class TttClz {
 	private String name;
 	public String getName() {
 		System.out.println(123);
+		System.out.println("write by github");
 		return name;
 	}
 	public void setName(String name) {
