@@ -73,7 +73,7 @@ public class ExportFileNameUtils {
 		//columnHeadFont.setBoldweight(HSSFFont.BOLDWEIGHT_BOLD);
 		columnHeadStyle.setFont(columnHeadFont);
 		columnHeadStyle.setAlignment(HorizontalAlignment.CENTER);// 左右居中
-		columnHeadStyle.setVerticalAlignment(VerticalAlignment.CENTER);// 上下居中
+		columnHeadStyle.setVerticalAlignment(VerticalAlignment.CENTER);  // 上下居中
 		columnHeadStyle.setLocked(true);
 		columnHeadStyle.setWrapText(true);
 		//设置边框颜色和粗细
