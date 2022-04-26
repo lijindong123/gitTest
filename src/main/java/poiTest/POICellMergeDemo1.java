@@ -69,7 +69,7 @@ public class POICellMergeDemo1 {
 			cell.setCellValue(new HSSFRichTextString("折合本位币合计"));
 
 			// ---------------------------3.合并单元格------------------------------
-			sheet.addMergedRegion(new CellRangeAddress(0, 0, 0, 5));// 开始行，结束行，开始列，结束列
+			sheet.addMergedRegion(new CellRangeAddress(0, 0, 0, 5));  // 开始行，结束行，开始列，结束列
 			sheet.addMergedRegion(new CellRangeAddress(1, 1, 0, 5));
 			sheet.addMergedRegion(new CellRangeAddress(2, 4, 0, 0));
 			sheet.addMergedRegion(new CellRangeAddress(2, 3, 1, 2));
