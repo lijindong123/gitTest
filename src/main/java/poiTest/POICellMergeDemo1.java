@@ -39,7 +39,7 @@ public class POICellMergeDemo1 {
 		try {
 			HSSFRow row = null;
 			HSSFCell cell = null;
-			// ---------------------------1.初始化带边框的表头------------------------------
+			// ---------------------------1.初始化  带边框的表头------------------------------
 			for (int i = 0; i < 5; i++) {
 				row = sheet.createRow(i);
 				for (int j = 0; j <= 5; j++) {
