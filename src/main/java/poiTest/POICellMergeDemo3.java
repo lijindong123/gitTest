@@ -33,7 +33,7 @@ public class POICellMergeDemo3 {
 		
 		//设置一个样式，下面可以调用
 		CellStyle style = wb.createCellStyle();
-		//设置下边框的线条粗细（有14种选择，可以根据需要在BorderStyle这个类中选取）
+		//设置下边框的线条粗细（有14种选择，  可以根据需要在BorderStyle这个类中选取）
 		style.setBorderBottom(BorderStyle.THIN);
 		//设置下边框的边框线颜色（颜色和上述的颜色对照表是一样的）
 		style.setBorderBottom(BorderStyle.THIN);//下边框
