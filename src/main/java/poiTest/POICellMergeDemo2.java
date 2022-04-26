@@ -76,7 +76,7 @@ public class POICellMergeDemo2 {
 			cell.setCellValue(new HSSFRichTextString("驳回"));
 			
 			// ---------------------------3.合并单元格------------------------------
-			sheet.addMergedRegion(new CellRangeAddress(0, 0, 0, 8));// 开始行，结束行，开始列，结束列      包头和尾(从0到8的这9列都合并了)
+			sheet.addMergedRegion(new CellRangeAddress(0, 0, 0, 8));// 开始行，结束行，开始列，结束列    包头 和尾(从0到8的这9列都合并了)
 			sheet.addMergedRegion(new CellRangeAddress(1, 1, 0, 5));
 			sheet.addMergedRegion(new CellRangeAddress(1, 1, 6, 8));
 			FileOutputStream fileOut = new FileOutputStream("d:\\转出查询报表.xls");
