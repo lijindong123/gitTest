@@ -26,7 +26,7 @@ public class POICellMergeDemo1 {
 		HSSFCellStyle cellStyleRight = ExportFileNameUtils.initColumnCenterstyle(wb);//单元格样式
 		HSSFCellStyle cellStyleLeft = ExportFileNameUtils.initColumnCenterstyle(wb);
 		cellStyleRight.setAlignment(HorizontalAlignment.CENTER);//右对齐
-		cellStyleLeft.setAlignment(HorizontalAlignment.LEFT);//左对齐
+		cellStyleLeft.setAlignment(HorizontalAlignment.LEFT);   //左对齐
 		
 		
 		// 设置列宽
